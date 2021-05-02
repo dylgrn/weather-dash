@@ -37,7 +37,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+ cityS +'&appid=3c900
   const wind = data.wind.speed
   const humid = data.main.humidity;
 
-  const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  const iconUrl = `https://openweathermap.org/img/wn/${icon}@2x.png`;
   const fahrenheit = (temp - 273.15)* 1.8 + 32;
 
   const iconImg = document.getElementById('weather-icon');
@@ -73,7 +73,7 @@ function getFiveDay() {
   const wind = data.list[3].wind.speed
   const humid = data.list[3].main.humidity;
 
-  const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  const iconUrl = `https://openweathermap.org/img/wn/${icon}@2x.png`;
   const fahrenheit = (temp - 273.15)* 1.8 + 32;
 
   const iconImg = document.getElementById('weather-icon2');
@@ -100,7 +100,7 @@ function getFiveDay() {
   const wind3 = data.list[11].wind.speed
   const humid3 = data.list[11].main.humidity;
 
-  const iconUrl3 = `http://openweathermap.org/img/wn/${icon3}@2x.png`;
+  const iconUrl3 = `https://openweathermap.org/img/wn/${icon3}@2x.png`;
   const fahrenheit3 = (temp3 - 273.15)* 1.8 + 32;
 
   const iconImg3 = document.getElementById('weather-icon3');
@@ -127,7 +127,7 @@ function getFiveDay() {
   const wind4 = data.list[19].wind.speed
   const humid4 = data.list[19].main.humidity;
 
-  const iconUrl4 = `http://openweathermap.org/img/wn/${icon4}@2x.png`;
+  const iconUrl4 = `https://openweathermap.org/img/wn/${icon4}@2x.png`;
   const fahrenheit4 = (temp4 - 273.15)* 1.8 + 32;
 
   const iconImg4 = document.getElementById('weather-icon4');
@@ -154,7 +154,7 @@ function getFiveDay() {
   const wind5 = data.list[27].wind.speed
   const humid5 = data.list[27].main.humidity;
 
-  const iconUrl5 = `http://openweathermap.org/img/wn/${icon5}@2x.png`;
+  const iconUrl5 = `https://openweathermap.org/img/wn/${icon5}@2x.png`;
   const fahrenheit5 = (temp5 - 273.15)* 1.8 + 32;
 
   const iconImg5 = document.getElementById('weather-icon5');
@@ -181,7 +181,7 @@ function getFiveDay() {
   const wind6 = data.list[35].wind.speed
   const humid6 = data.list[35].main.humidity;
 
-  const iconUrl6 = `http://openweathermap.org/img/wn/${icon6}@2x.png`;
+  const iconUrl6 = `https://openweathermap.org/img/wn/${icon6}@2x.png`;
   const fahrenheit6 = (temp6 - 273.15)* 1.8 + 32;
 
   const iconImg6 = document.getElementById('weather-icon6');
