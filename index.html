@@ -6,9 +6,103 @@
         <title>Weather Dashboard</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/style.css">
     </head>
     <body>
+        <header>
+            <h1 class="text-light text-center">Weather Dashboard</h1>
+        </header>
+        <main class="flex-row justify-space-between">
+            <div class="container">
+                <div class="row">
+            <div class="col- col-md-4">
+                <div class="card">
+                    <h3 class="card-header text-uppercase text-center">Weather</h3>
+                      <label class="form-text text-center cityN" for="cityname">Search for City :</label>
+                      <input id="city" type="text" autofocus="true" class="form-control" />
+                      <button id="btn" type="search" class="btn btn-primary col-12">Search</button>                    
+                  </div>
+                  <div class="history"></div>
+                </div>
+                <div class="col-6 col-md-8" id="weathernow">
+                <div class="col-12 today">
+                    <img src="" alt="" srcset="" id="weather-icon">
+                    <div class="" id="location">Location</div>
+                    <div class="date">Date</div>
+                    <div class="desc">Description</div>
+                    <div class="weather">
+                        <div class="circle"></div>
+                        <div class="f">Temp</div>
+                        <div class="w">Wind</div>
+                        <div class="humid">Humidity</div>
+                    </div>
+                    <div class="info">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="fiveday">
+                    <div class="date2">Date</div>
+                    <img src="" alt="" srcset="" id="weather-icon2">
+                    <div class="" id="location2">Location</div>
+                    <div class="desc2">Description</div>
+                    <div class="weather2">
+                        <div class="circle2"></div>
+                        <div class="f2">Temp</div>
+                        <div class="w2">Wind</div>
+                        <div class="humid2">Humidity</div>
+                </div>
+                <div class="fiveday">
+                    <div class="date3">Date</div>
+                    <img src="" alt="" srcset="" id="weather-icon3">
+                    <div class="" id="location3">Location</div>
+                    <div class="desc3">Description</div>
+                    <div class="weather3">
+                        <div class="circle3"></div>
+                        <div class="f3">Temp</div>
+                        <div class="w3">Wind</div>
+                        <div class="humid3">Humidity</div>
+                </div>
+                <div class="fiveday">
+                    <div class="date4">Date</div>
+                    <img src="" alt="" srcset="" id="weather-icon4">
+                    <div class="" id="location4">Location</div>
+                    <div class="desc4">Description</div>
+                    <div class="weather4">
+                        <div class="circle4"></div>
+                        <div class="f4">Temp</div>
+                        <div class="w4">Wind</div>
+                        <div class="humid4">Humidity</div>
+                </div>
+                <div class="fiveday">
+                    <div class="date5">Date</div>
+                    <img src="" alt="" srcset="" id="weather-icon5">
+                    <div class="" id="location5">Location</div>
+                    <div class="desc5">Description</div>
+                    <div class="weather5">
+                        <div class="circle5"></div>
+                        <div class="f5">Temp</div>
+                        <div class="w5">Wind</div>
+                        <div class="humid5">Humidity</div>
+                </div>
+                <div class="fiveday">
+                    <div class="date6">Date</div>
+                    <img src="" alt="" srcset="" id="weather-icon6">
+                    <div class="" id="location6">Location</div>
+                    <div class="desc6">Description</div>
+                    <div class="weather6">
+                        <div class="circle6"></div>
+                        <div class="f6">Temp</div>
+                        <div class="w6">Wind</div>
+                        <div class="humid6">Humidity</div>
+                </div>
+            </div>
+        </div>
+        </main>
         
         <script src="./assets/script.js" async defer></script>
     </body>
