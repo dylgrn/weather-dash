@@ -1,9 +1,13 @@
+body {
+    background-color: dimgrey;
+}
+
 h1 {
     font-size: 50px;
 }
 
 header {
-    background-color: rgba(38, 38, 253, 0.815);
+    background-color: rgb(53, 57, 85);
 }
 
 .cityN {
@@ -21,11 +25,17 @@ header {
 }
 
 .today {
-    border: black solid 1px;
+    color: gainsboro;
+    border: rgb(245, 231, 231) solid 1px;
+    border-radius: 5%;
+    background-color: rgb(53, 57, 85);
+    margin-bottom: 10px;
 }
 
 .fiveday {
     color: gainsboro;
     background-color: rgb(53, 57, 85);
-    border: black solid 1px;
+    border: white solid 1px;
+    border-radius: 5%;
+    justify-content: space-between;
 }

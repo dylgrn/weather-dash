@@ -1,4 +1,3 @@
-//var btn2 = document.querySelector('#btn2').value;
 var btn = document.querySelector("#btn");
 var cityS = document.querySelector("#city").value;
 
@@ -6,24 +5,24 @@ btn.addEventListener("click", getWeather)
 btn.addEventListener('click', getFiveDay)
 btn.addEventListener('click', localS)
 btn.addEventListener('click', getlocal)
-//btn2.addEventListener('click', getWeather)
 
 function localS() {
-  var text = document.querySelector('#city')
+  var text = document.querySelector('.text')
   var locS = text;
-  localStorage.setItem('text', locS.value)
+  localStorage.setItem('.text', locS.value)
 }
 
+localS();
+
 function getlocal() {
- let store = localStorage.getItem('text')
- document.querySelector('.history').innerHTML = store;
+ let store = localStorage.getItem('.text');
+ let storeEle = document.querySelector('.history').innerHTML = store;
 }
 
 getlocal();
 
 function getWeather() { 
   var cityS = document.querySelector("#city").value;
-  //let histS = document.querySelector('.history').value;
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+ cityS +'&appid=3c90078ac275b2ff619b8d5d48af70ed')
 .then(function(response) {
     return response.json();
