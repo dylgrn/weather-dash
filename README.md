@@ -1,4 +1,4 @@
-# weather-dash
+# Weather-Dash
 ![image](https://user-images.githubusercontent.com/78700475/116837336-9f868b80-ab8f-11eb-93cf-52674862f762.png)
 
 ## Purpose
